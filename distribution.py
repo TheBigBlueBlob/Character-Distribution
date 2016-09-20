@@ -67,12 +67,8 @@ MyList.append(origText.count('w' or 'W'))
 MyList.append(origText.count('x' or 'X'))
 MyList.append(origText.count('y' or 'Y'))
 MyList.append(origText.count('z' or 'Z'))
-counter = 26
-counter2 = 0
-while counter > 0:
-    print("".join(alphaList[counter2]*MyList[counter2]))
-    counter -= 1
-    counter2 += 1
+MyList.sort()
+print(MyList)
 
 
 
