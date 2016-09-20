@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Liam S
+Credit: none
 
 Assignment:
 
@@ -36,3 +36,49 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+import string
+alphaList = list(string.ascii_lowercase)
+origText = str(input("Please enter a string of text (the bigger the better): "))
+print('The distribution of characters in "' + origText + '" is: ')
+MyList = []
+MyList.append(origText.count('a' or 'A'))
+MyList.append(origText.count('b' or 'B'))
+MyList.append(origText.count('c' or 'C'))
+MyList.append(origText.count('d' or 'D'))
+MyList.append(origText.count('e' or 'E'))
+MyList.append(origText.count('f' or 'F'))
+MyList.append(origText.count('g' or 'G'))
+MyList.append(origText.count('h' or 'H'))
+MyList.append(origText.count('i' or 'I'))
+MyList.append(origText.count('j' or 'J'))
+MyList.append(origText.count('k' or 'K'))
+MyList.append(origText.count('l' or 'L'))
+MyList.append(origText.count('m' or 'M'))
+MyList.append(origText.count('n' or 'N'))
+MyList.append(origText.count('o' or 'O'))
+MyList.append(origText.count('p' or 'P'))
+MyList.append(origText.count('q' or 'Q'))
+MyList.append(origText.count('r' or 'R'))
+MyList.append(origText.count('s' or 'S'))
+MyList.append(origText.count('t' or 'T'))
+MyList.append(origText.count('u' or 'U'))
+MyList.append(origText.count('v' or 'V'))
+MyList.append(origText.count('w' or 'W'))
+MyList.append(origText.count('x' or 'X'))
+MyList.append(origText.count('y' or 'Y'))
+MyList.append(origText.count('z' or 'Z'))
+print(MyList)
+counter = 26
+counter2 = 0
+while counter > 0:
+    print("".join(alphaList[counter2]*MyList[counter2]))
+    counter -= 1
+    counter2 += 1
+
+
+
+
+
+
+
+
