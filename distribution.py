@@ -67,7 +67,6 @@ MyList.append(origText.count('w' or 'W'))
 MyList.append(origText.count('x' or 'X'))
 MyList.append(origText.count('y' or 'Y'))
 MyList.append(origText.count('z' or 'Z'))
-print(MyList)
 counter = 26
 counter2 = 0
 while counter > 0:
