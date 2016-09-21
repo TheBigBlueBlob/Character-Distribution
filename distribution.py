@@ -71,7 +71,7 @@ MyList.append(newOrigList.count('z'))
 tupleList = zip(MyList, alphaList)
 tupleList = list(tupleList)
 tupleList.sort()
-print(tupleList[3][1])
+print(tupleList[0][0])
 
 
 
