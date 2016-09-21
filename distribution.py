@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Liam S
-Credit: none
+Credit: Stack overflow for accessing info inside tuples, and Mr. Dennison for help on a and A
 
 Assignment:
 
@@ -71,7 +71,8 @@ MyList.append(newOrigList.count('z'))
 tupleList = zip(MyList, alphaList)
 tupleList = list(tupleList)
 tupleList.sort()
-print(tupleList)
+print(tupleList[3][1])
+
 
 
 
