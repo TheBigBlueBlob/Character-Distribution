@@ -73,15 +73,15 @@ MyList.append(newOrigList.count('z'))
 
 tupleList = zip(MyList, alphaList, numList)
 tupleList = list(tupleList)
-counter = 0
-tupleList.sort()
-while counter < 26:
-    if MyList[counter] != 0:
+tupleList.sort(reverse=True)
+counter = 25
+print(tupleList)
+while counter > -1:
+    if tupleList[counter][0] != 0:
         print(str(tupleList[counter][1])*int(tupleList[counter][0]))
     else:
         uselessvariable += 1
-    counter += 1
-
+    counter -= 1
 
 
 
