@@ -77,7 +77,7 @@ print(tupleList)
 counter = 0
 while counter < 26:
     if MyList[counter] != 0:
-        print(str(tupleList[counter][1])*int(tupleList[][]))
+        print(str(tupleList[counter][1])*int(tupleList[counter][0]))
     else:
         uselessvariable += 1
     counter += 1
