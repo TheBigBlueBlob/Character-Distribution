@@ -69,16 +69,18 @@ MyList.append(newOrigList.count('w'))
 MyList.append(newOrigList.count('x'))
 MyList.append(newOrigList.count('y'))
 MyList.append(newOrigList.count('z'))
-counter = 0
-while counter < 26:
-    alphaList[counter] = numList[counter]
-    counter += 1
-tupleList = zip(MyList, alphaList)
+
+tupleList = zip(MyList, alphaList, numList)
 tupleList = list(tupleList)
 tupleList.sort()
 print(tupleList)
-counter2 = 0
-while counter 
+counter = 0
+while counter < 26:
+    if MyList[counter] != 0:
+        print(str(tupleList[counter][counter])*tupleList[counter][counter][counter])
+    else:
+        
+    counter += 1
 
 
 
