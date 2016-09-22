@@ -41,6 +41,7 @@ alphaList = list(string.ascii_lowercase)
 origText = str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "' + origText + '" is: ')
 newOrigList = origText.lower()
+numList = list(range(1,27))
 MyList = []
 MyList.append(newOrigList.count('a'))
 MyList.append(newOrigList.count('b'))
@@ -68,11 +69,16 @@ MyList.append(newOrigList.count('w'))
 MyList.append(newOrigList.count('x'))
 MyList.append(newOrigList.count('y'))
 MyList.append(newOrigList.count('z'))
+counter = 0
+while counter < 26:
+    alphaList[counter] = numList[counter]
+    counter += 1
 tupleList = zip(MyList, alphaList)
 tupleList = list(tupleList)
 tupleList.sort()
-print(tupleList[0][0])
-
+print(tupleList)
+counter2 = 0
+while counter 
 
 
 
