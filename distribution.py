@@ -77,7 +77,6 @@ tupleList = zip(MyList, NewnumList, alphaList)
 tupleList = list(tupleList)
 tupleList.sort(reverse=True)
 counter = 0
-print(tupleList)
 while counter < 26:
     if tupleList[counter][0] != 0:
         print(str(tupleList[counter][2])*int(tupleList[counter][0]))
